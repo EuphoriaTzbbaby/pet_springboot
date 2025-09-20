@@ -31,7 +31,7 @@ jobs:
           port: 22
           source: target/pet-0.0.1-SNAPSHOT.jar
           target: /var/www/html/springbootAndVue/pet
-          strip_components: 1  # ✅ 就是这句去掉 target 文件夹 fuck
+          strip_components: 1  # ✅ 就是这句去掉 target 文件夹 fuck you
 
       - name: Build and run Docker container on server
         uses: appleboy/ssh-action@v0.1.7
